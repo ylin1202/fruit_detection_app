@@ -1,16 +1,43 @@
-# fruit_app
+# 🍎 Fruit Recognition & Information Integration System
+A full-stack application that recognizes fruits from images and provides related information and recipe suggestions.  
+Backend powered by **Django**, frontend built with **Flutter**.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🌟 Overview
+The **Fruit Recognition & Information Integration System** allows users to upload or capture a fruit image, and the system returns:
 
-This project is a starting point for a Flutter application.
+- The recognized fruit  
+- Basic information related to the fruit  
+- Suggested dishes or recipes the user can reference  
 
-A few resources to get you started if this is your first Flutter project:
+This project integrates:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- A trained image recognition model used for fruit classification  
+- A Django backend for processing and inference  
+- A Flutter mobile app for user interaction and visualization  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Features
+
+### 🖼️ Fruit Image Recognition
+- Identifies fruit types from uploaded or captured images  
+- Uses a trained image recognition model for classification  
+
+### 📊 Fruit Information
+- Provides simple, basic information about the recognized fruit  
+- Helps users better understand the fruit they scanned  
+
+### 🍽️ Recipe or Dish Suggestions
+- Offers recipe ideas or dish suggestions based on the recognized fruit  
+- Focuses on simple and easy-to-understand recommendations  
+
+### 🔧 Django Backend
+- Receives images and performs model inference  
+- Organizes results into a structured format for the frontend  
+
+### 📱 Flutter Mobile App
+- Clean and intuitive user interface  
+- Supports image selection and result display  
+- Communicates with the backend through standard HTTP requests  
